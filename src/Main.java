@@ -18,7 +18,7 @@ public class Main {
      */
 
         try {
-            connection = DriverManager.getConnection( "jdbc:mysql://localhost:3306/exercise","root","Turmana@112");
+          Connection( "jdbc:mysql://localhost:3306/exercise","root","Turmana@112");
         } catch (SQLException e) {
             System.out.println("Could Not Connect to Server!");
             e.getCause();
