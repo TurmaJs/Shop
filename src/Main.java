@@ -12,8 +12,10 @@ public class Main {
 
 
     }
-    public static Connection connect(){
+    /* public static Connection connect(){
         Connection connection = null;
+        
+     */
 
         try {
             connection = DriverManager.getConnection( "jdbc:mysql://localhost:3306/exercise","root","Turmana@112");
